@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Gadgets</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="flex flex-col justify-center">
+       <div  class="flex justify-center my-10">
+        <input type="text" class="border-2 border-red-500 rounded pl-4" placeholder="Search your phone" id="search-field">
+        <button class="btn btn-primary" id="input-button" onclick="searchText()">Search</button>
+       </div>
+        <div id="container" class="grid grid-cols-3 gap-5 w-[80%] mx-auto">
+           
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
